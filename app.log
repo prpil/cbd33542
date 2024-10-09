@@ -1,0 +1,889 @@
+2024-10-03 09:01:04 INFO: Connected to Google Cloud Storage
+2024-10-03 09:01:04 INFO: Database connection successful
+2024-10-03 09:01:05 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-03 09:01:05 INFO: [33mPress CTRL+C to quit[0m
+2024-10-03 09:02:32 INFO: 192.168.2.25 - - [03/Oct/2024 09:02:32] "GET /uploads HTTP/1.1" 200 -
+2024-10-03 09:03:56 INFO: Connected to Google Cloud Storage
+2024-10-03 09:03:56 INFO: Database connection successful
+2024-10-03 09:03:56 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-03 09:03:56 INFO: [33mPress CTRL+C to quit[0m
+2024-10-03 09:03:56 INFO:  * Restarting with stat
+2024-10-03 09:03:57 INFO: Connected to Google Cloud Storage
+2024-10-03 09:03:57 INFO: Database connection successful
+2024-10-03 09:03:57 WARNING:  * Debugger is active!
+2024-10-03 09:03:57 INFO:  * Debugger PIN: 218-951-802
+2024-10-03 09:04:13 INFO: 192.168.2.25 - - [03/Oct/2024 09:04:13] "[33mGET / HTTP/1.1[0m" 404 -
+2024-10-03 11:53:04 INFO: Connected to Google Cloud Storage
+2024-10-03 11:53:04 INFO: Database connection successful
+2024-10-03 11:53:04 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-03 11:53:04 INFO: [33mPress CTRL+C to quit[0m
+2024-10-03 11:53:19 INFO: 192.168.2.25 - - [03/Oct/2024 11:53:19] "[33mGET / HTTP/1.1[0m" 404 -
+2024-10-03 11:53:26 INFO: 192.168.2.25 - - [03/Oct/2024 11:53:26] "GET /uploads HTTP/1.1" 200 -
+2024-10-03 11:53:36 INFO: File record inserted into the database: new image.jpeg, https://storage.googleapis.com/my_bucket_p/new%20image.jpeg
+2024-10-03 11:53:36 INFO: File new image.jpeg uploaded successfully
+2024-10-03 11:53:36 INFO: 192.168.2.25 - - [03/Oct/2024 11:53:36] "[32mPOST /uploads HTTP/1.1[0m" 302 -
+2024-10-03 11:53:36 INFO: 192.168.2.25 - - [03/Oct/2024 11:53:36] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 19:22:20 INFO: Connected to Google Cloud Storage
+2024-10-04 19:30:31 INFO: Connected to Google Cloud Storage
+2024-10-04 19:30:46 ERROR: Error connecting to the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (258)')
+2024-10-04 19:30:46 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 19:30:46 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 19:31:18 INFO: 192.168.2.25 - - [04/Oct/2024 19:31:18] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 19:31:18 INFO: 192.168.2.25 - - [04/Oct/2024 19:31:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-04 19:31:52 ERROR: Error inserting record into the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (258)')
+2024-10-04 19:31:52 INFO: File new image.jpeg uploaded successfully
+2024-10-04 19:31:52 INFO: 192.168.2.25 - - [04/Oct/2024 19:31:52] "[32mPOST /uploads HTTP/1.1[0m" 302 -
+2024-10-04 19:31:52 INFO: 192.168.2.25 - - [04/Oct/2024 19:31:52] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 19:38:31 INFO: Connected to Google Cloud Storage
+2024-10-04 19:38:46 ERROR: Error connecting to the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (258)')
+2024-10-04 19:38:46 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 19:38:46 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 19:38:52 INFO: 192.168.2.25 - - [04/Oct/2024 19:38:52] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 19:39:29 ERROR: Error inserting record into the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (258)')
+2024-10-04 19:39:29 INFO: File OIP.jpeg uploaded successfully with title img 1
+2024-10-04 19:39:29 INFO: 192.168.2.25 - - [04/Oct/2024 19:39:29] "[32mPOST /uploads HTTP/1.1[0m" 302 -
+2024-10-04 19:39:29 INFO: 192.168.2.25 - - [04/Oct/2024 19:39:29] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 19:44:22 INFO: Connected to Google Cloud Storage
+2024-10-04 19:44:38 ERROR: Error connecting to the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (258)')
+2024-10-04 19:44:38 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 19:44:38 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 19:44:45 INFO: 192.168.2.25 - - [04/Oct/2024 19:44:45] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 19:44:46 INFO: 192.168.2.25 - - [04/Oct/2024 19:44:46] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 19:44:47 INFO: 192.168.2.25 - - [04/Oct/2024 19:44:47] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 19:45:28 ERROR: Error inserting record into the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (258)')
+2024-10-04 19:45:28 INFO: File 487248.jpg uploaded successfully
+2024-10-04 19:45:28 INFO: 192.168.2.25 - - [04/Oct/2024 19:45:28] "[32mPOST /uploads HTTP/1.1[0m" 302 -
+2024-10-04 19:45:28 INFO: 192.168.2.25 - - [04/Oct/2024 19:45:28] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 19:47:10 INFO: Connected to Google Cloud Storage
+2024-10-04 19:47:26 ERROR: Error connecting to the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (258)')
+2024-10-04 19:47:26 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 19:47:26 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 19:47:49 INFO: 192.168.2.25 - - [04/Oct/2024 19:47:49] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 19:48:19 ERROR: Error inserting record into the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (258)')
+2024-10-04 19:48:19 INFO: File 487809.jpg uploaded successfully with title t2
+2024-10-04 19:48:19 INFO: 192.168.2.25 - - [04/Oct/2024 19:48:19] "[32mPOST /uploads HTTP/1.1[0m" 302 -
+2024-10-04 19:48:19 INFO: 192.168.2.25 - - [04/Oct/2024 19:48:19] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 19:50:55 INFO: Connected to Google Cloud Storage
+2024-10-04 19:51:10 ERROR: Error connecting to the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (258)')
+2024-10-04 19:51:10 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 19:51:10 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 19:51:18 INFO: 192.168.2.25 - - [04/Oct/2024 19:51:18] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 19:51:50 ERROR: Error inserting record into the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (258)')
+2024-10-04 19:51:50 INFO: File R.jpg uploaded successfully
+2024-10-04 19:51:50 INFO: 192.168.2.25 - - [04/Oct/2024 19:51:50] "[32mPOST /uploads HTTP/1.1[0m" 302 -
+2024-10-04 19:51:50 INFO: 192.168.2.25 - - [04/Oct/2024 19:51:50] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 19:54:49 INFO: Connected to Google Cloud Storage
+2024-10-04 19:55:04 ERROR: Error connecting to the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (258)')
+2024-10-04 19:55:04 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 19:55:04 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 19:55:45 INFO: 192.168.2.25 - - [04/Oct/2024 19:55:45] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 19:56:11 ERROR: Error inserting record into the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (258)')
+2024-10-04 19:56:11 INFO: File canada.jpg uploaded successfully
+2024-10-04 19:56:11 INFO: 192.168.2.25 - - [04/Oct/2024 19:56:11] "[32mPOST /uploads HTTP/1.1[0m" 302 -
+2024-10-04 19:56:11 INFO: 192.168.2.25 - - [04/Oct/2024 19:56:11] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 19:56:22 INFO: Connected to Google Cloud Storage
+2024-10-04 19:56:37 ERROR: Error connecting to the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (258)')
+2024-10-04 19:56:37 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 19:56:37 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 19:56:38 INFO: 192.168.2.25 - - [04/Oct/2024 19:56:38] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 20:01:07 INFO: Connected to Google Cloud Storage
+2024-10-04 20:01:22 ERROR: Error connecting to the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (258)')
+2024-10-04 20:01:22 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 20:01:22 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 20:01:27 INFO: 192.168.2.25 - - [04/Oct/2024 20:01:27] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 20:01:54 ERROR: Error inserting record into the database: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (258)')
+2024-10-04 20:01:54 INFO: File krishna.jpeg uploaded successfully
+2024-10-04 20:01:54 INFO: 192.168.2.25 - - [04/Oct/2024 20:01:54] "[32mPOST /uploads HTTP/1.1[0m" 302 -
+2024-10-04 20:01:54 INFO: 192.168.2.25 - - [04/Oct/2024 20:01:54] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 20:03:15 INFO: Connected to Google Cloud Storage
+2024-10-04 20:03:30 ERROR: Error connecting to the database: ('08001', '[08001] [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: The wait operation timed out.\r\n (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 18 for SQL Server]Invalid connection string attribute (0); [08001] [Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to tcp:35.237.93.132,1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (258)')
+2024-10-04 20:03:30 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 20:03:30 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 20:03:31 INFO: 192.168.2.25 - - [04/Oct/2024 20:03:31] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 20:06:11 INFO: Connected to Google Cloud Storage
+2024-10-04 20:06:12 INFO: Database connection successful
+2024-10-04 20:06:12 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 20:06:12 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 20:06:19 INFO: File record inserted into the database: krishna.jpeg, https://storage.googleapis.com/my_bucket_p/krishna.jpeg
+2024-10-04 20:06:19 INFO: File krishna.jpeg uploaded successfully
+2024-10-04 20:06:19 INFO: 192.168.2.25 - - [04/Oct/2024 20:06:19] "[32mPOST /uploads HTTP/1.1[0m" 302 -
+2024-10-04 20:06:19 INFO: 192.168.2.25 - - [04/Oct/2024 20:06:19] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 20:06:55 INFO: File record inserted into the database: OIP.jpeg, https://storage.googleapis.com/my_bucket_p/OIP.jpeg
+2024-10-04 20:06:55 INFO: File OIP.jpeg uploaded successfully
+2024-10-04 20:06:55 INFO: 192.168.2.25 - - [04/Oct/2024 20:06:55] "[32mPOST /uploads HTTP/1.1[0m" 302 -
+2024-10-04 20:06:55 INFO: 192.168.2.25 - - [04/Oct/2024 20:06:55] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 21:29:19 INFO: Connected to Google Cloud Storage
+2024-10-04 21:29:20 INFO: Database connection successful
+2024-10-04 21:29:20 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 21:29:20 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 21:29:25 ERROR: Exception on /uploads [GET]
+Traceback (most recent call last):
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\app.py", line 102, in upload_file
+    return render_template('upload.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: upload.html
+2024-10-04 21:29:25 INFO: 192.168.2.25 - - [04/Oct/2024 21:29:25] "[35m[1mGET /uploads HTTP/1.1[0m" 500 -
+2024-10-04 21:29:37 ERROR: Exception on /uploads [GET]
+Traceback (most recent call last):
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\app.py", line 102, in upload_file
+    return render_template('upload.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: upload.html
+2024-10-04 21:29:37 INFO: 192.168.2.25 - - [04/Oct/2024 21:29:37] "[35m[1mGET /uploads HTTP/1.1[0m" 500 -
+2024-10-04 21:33:40 INFO: Connected to Google Cloud Storage
+2024-10-04 21:33:41 INFO: Database connection successful
+2024-10-04 21:33:41 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 21:33:41 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 21:33:45 ERROR: Exception on /uploads [GET]
+Traceback (most recent call last):
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\app.py", line 102, in upload_file
+    return render_template('upload.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: upload.html
+2024-10-04 21:33:45 INFO: 192.168.2.25 - - [04/Oct/2024 21:33:45] "[35m[1mGET /uploads HTTP/1.1[0m" 500 -
+2024-10-04 21:33:46 ERROR: Exception on /uploads [GET]
+Traceback (most recent call last):
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\app.py", line 102, in upload_file
+    return render_template('upload.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: upload.html
+2024-10-04 21:33:46 INFO: 192.168.2.25 - - [04/Oct/2024 21:33:46] "[35m[1mGET /uploads HTTP/1.1[0m" 500 -
+2024-10-04 21:33:47 ERROR: Exception on /uploads [GET]
+Traceback (most recent call last):
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\app.py", line 102, in upload_file
+    return render_template('upload.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: upload.html
+2024-10-04 21:33:47 INFO: 192.168.2.25 - - [04/Oct/2024 21:33:47] "[35m[1mGET /uploads HTTP/1.1[0m" 500 -
+2024-10-04 21:33:47 ERROR: Exception on /uploads [GET]
+Traceback (most recent call last):
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\app.py", line 102, in upload_file
+    return render_template('upload.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: upload.html
+2024-10-04 21:33:47 INFO: 192.168.2.25 - - [04/Oct/2024 21:33:47] "[35m[1mGET /uploads HTTP/1.1[0m" 500 -
+2024-10-04 21:33:47 ERROR: Exception on /uploads [GET]
+Traceback (most recent call last):
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\app.py", line 102, in upload_file
+    return render_template('upload.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: upload.html
+2024-10-04 21:33:47 INFO: 192.168.2.25 - - [04/Oct/2024 21:33:47] "[35m[1mGET /uploads HTTP/1.1[0m" 500 -
+2024-10-04 21:37:13 INFO: Connected to Google Cloud Storage
+2024-10-04 21:37:14 INFO: Database connection successful
+2024-10-04 21:37:14 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 21:37:14 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 21:37:18 ERROR: Exception on /uploads [GET]
+Traceback (most recent call last):
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\app.py", line 102, in upload_file
+    return render_template('upload.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: upload.html
+2024-10-04 21:37:18 INFO: 192.168.2.25 - - [04/Oct/2024 21:37:18] "[35m[1mGET /uploads HTTP/1.1[0m" 500 -
+2024-10-04 21:37:20 ERROR: Exception on /uploads [GET]
+Traceback (most recent call last):
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\app.py", line 102, in upload_file
+    return render_template('upload.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: upload.html
+2024-10-04 21:37:20 INFO: 192.168.2.25 - - [04/Oct/2024 21:37:20] "[35m[1mGET /uploads HTTP/1.1[0m" 500 -
+2024-10-04 21:37:20 ERROR: Exception on /uploads [GET]
+Traceback (most recent call last):
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\app.py", line 102, in upload_file
+    return render_template('upload.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: upload.html
+2024-10-04 21:37:20 INFO: 192.168.2.25 - - [04/Oct/2024 21:37:20] "[35m[1mGET /uploads HTTP/1.1[0m" 500 -
+2024-10-04 21:37:20 ERROR: Exception on /uploads [GET]
+Traceback (most recent call last):
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\app.py", line 102, in upload_file
+    return render_template('upload.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: upload.html
+2024-10-04 21:37:20 INFO: 192.168.2.25 - - [04/Oct/2024 21:37:20] "[35m[1mGET /uploads HTTP/1.1[0m" 500 -
+2024-10-04 21:37:20 ERROR: Exception on /uploads [GET]
+Traceback (most recent call last):
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\app.py", line 102, in upload_file
+    return render_template('upload.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: upload.html
+2024-10-04 21:37:20 INFO: 192.168.2.25 - - [04/Oct/2024 21:37:20] "[35m[1mGET /uploads HTTP/1.1[0m" 500 -
+2024-10-04 21:37:21 ERROR: Exception on /uploads [GET]
+Traceback (most recent call last):
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\app.py", line 102, in upload_file
+    return render_template('upload.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: upload.html
+2024-10-04 21:37:21 INFO: 192.168.2.25 - - [04/Oct/2024 21:37:21] "[35m[1mGET /uploads HTTP/1.1[0m" 500 -
+2024-10-04 21:37:21 ERROR: Exception on /uploads [GET]
+Traceback (most recent call last):
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\app.py", line 102, in upload_file
+    return render_template('upload.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: upload.html
+2024-10-04 21:37:21 INFO: 192.168.2.25 - - [04/Oct/2024 21:37:21] "[35m[1mGET /uploads HTTP/1.1[0m" 500 -
+2024-10-04 21:37:37 INFO: Connected to Google Cloud Storage
+2024-10-04 21:37:38 INFO: Database connection successful
+2024-10-04 21:37:38 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 21:37:38 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 21:37:40 INFO: 192.168.2.25 - - [04/Oct/2024 21:37:40] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:27:46 INFO: Connected to Google Cloud Storage
+2024-10-04 22:27:46 INFO: Database connection successful
+2024-10-04 22:27:47 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 22:27:47 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 22:27:55 INFO: 192.168.2.25 - - [04/Oct/2024 22:27:55] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:28:11 ERROR: Exception on /uploads [POST]
+Traceback (most recent call last):
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRAJITH\PycharmProjects\my-flask-app\app.py", line 76, in upload_file
+    if success:
+       ^^^^^^^
+NameError: name 'success' is not defined
+2024-10-04 22:28:11 INFO: 192.168.2.25 - - [04/Oct/2024 22:28:11] "[35m[1mPOST /uploads HTTP/1.1[0m" 500 -
+2024-10-04 22:28:37 INFO: Connected to Google Cloud Storage
+2024-10-04 22:28:38 INFO: Database connection successful
+2024-10-04 22:28:38 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 22:28:38 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 22:28:43 INFO: File record inserted into the database: image (7).png, https://storage.googleapis.com/my_bucket_p/image%20%287%29.png
+2024-10-04 22:28:43 INFO: File image (7).png uploaded successfully
+2024-10-04 22:28:43 INFO: 192.168.2.25 - - [04/Oct/2024 22:28:43] "[32mPOST /uploads HTTP/1.1[0m" 302 -
+2024-10-04 22:28:43 INFO: 192.168.2.25 - - [04/Oct/2024 22:28:43] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:28:50 INFO: File record inserted into the database: 2412255.jpg, https://storage.googleapis.com/my_bucket_p/2412255.jpg
+2024-10-04 22:28:50 INFO: File 2412255.jpg uploaded successfully
+2024-10-04 22:28:50 INFO: 192.168.2.25 - - [04/Oct/2024 22:28:50] "[32mPOST /uploads HTTP/1.1[0m" 302 -
+2024-10-04 22:28:50 INFO: 192.168.2.25 - - [04/Oct/2024 22:28:50] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:29:26 INFO: Connected to Google Cloud Storage
+2024-10-04 22:29:26 INFO: Database connection successful
+2024-10-04 22:29:27 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 22:29:27 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 22:29:28 INFO: 192.168.2.25 - - [04/Oct/2024 22:29:28] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:31:42 INFO: Connected to Google Cloud Storage
+2024-10-04 22:31:43 INFO: Database connection successful
+2024-10-04 22:31:43 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 22:31:43 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 22:31:44 INFO: 192.168.2.25 - - [04/Oct/2024 22:31:44] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:31:46 INFO: 192.168.2.25 - - [04/Oct/2024 22:31:46] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:31:47 INFO: 192.168.2.25 - - [04/Oct/2024 22:31:47] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:31:47 INFO: 192.168.2.25 - - [04/Oct/2024 22:31:47] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:31:47 INFO: 192.168.2.25 - - [04/Oct/2024 22:31:47] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:31:47 INFO: 192.168.2.25 - - [04/Oct/2024 22:31:47] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:31:47 INFO: 192.168.2.25 - - [04/Oct/2024 22:31:47] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:31:47 INFO: 192.168.2.25 - - [04/Oct/2024 22:31:47] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:31:48 INFO: 192.168.2.25 - - [04/Oct/2024 22:31:48] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:31:48 INFO: 192.168.2.25 - - [04/Oct/2024 22:31:48] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:31:48 INFO: 192.168.2.25 - - [04/Oct/2024 22:31:48] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:31:49 INFO: 192.168.2.25 - - [04/Oct/2024 22:31:49] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:31:49 INFO: 192.168.2.25 - - [04/Oct/2024 22:31:49] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:31:49 INFO: 192.168.2.25 - - [04/Oct/2024 22:31:49] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:31:49 INFO: 192.168.2.25 - - [04/Oct/2024 22:31:49] "GET /uploads HTTP/1.1" 200 -
+2024-10-04 22:32:16 INFO: Connected to Google Cloud Storage
+2024-10-04 22:32:17 INFO: Database connection successful
+2024-10-04 22:32:17 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-04 22:32:17 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 22:32:18 INFO: 192.168.2.25 - - [04/Oct/2024 22:32:18] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:13:41 INFO: Connected to Google Cloud Storage
+2024-10-05 11:13:42 INFO: Database connection successful
+2024-10-05 11:13:42 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-05 11:13:42 INFO: [33mPress CTRL+C to quit[0m
+2024-10-05 11:13:50 INFO: 192.168.2.25 - - [05/Oct/2024 11:13:50] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:14:20 INFO: 192.168.2.25 - - [05/Oct/2024 11:14:20] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:14:21 INFO: 192.168.2.25 - - [05/Oct/2024 11:14:21] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:14:21 INFO: 192.168.2.25 - - [05/Oct/2024 11:14:21] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:14:21 INFO: 192.168.2.25 - - [05/Oct/2024 11:14:21] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:14:22 INFO: 192.168.2.25 - - [05/Oct/2024 11:14:22] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:14:24 INFO: 192.168.2.25 - - [05/Oct/2024 11:14:24] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:14:26 INFO: 192.168.2.25 - - [05/Oct/2024 11:14:26] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:14:33 INFO: Received file: new image.jpeg
+2024-10-05 11:14:34 INFO: File record inserted into the database: new image.jpeg, https://storage.googleapis.com/my_bucket_p/new%20image.jpeg
+2024-10-05 11:14:34 INFO: File new image.jpeg uploaded successfully
+2024-10-05 11:14:34 INFO: 192.168.2.25 - - [05/Oct/2024 11:14:34] "[32mPOST /uploads HTTP/1.1[0m" 302 -
+2024-10-05 11:14:34 INFO: 192.168.2.25 - - [05/Oct/2024 11:14:34] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:16:58 INFO: Received file: k1.jpeg
+2024-10-05 11:16:59 INFO: File record inserted into the database: k1.jpeg, https://storage.googleapis.com/my_bucket_p/k1.jpeg
+2024-10-05 11:16:59 INFO: File k1.jpeg uploaded successfully
+2024-10-05 11:16:59 INFO: 192.168.2.25 - - [05/Oct/2024 11:16:59] "[32mPOST /uploads HTTP/1.1[0m" 302 -
+2024-10-05 11:16:59 INFO: 192.168.2.25 - - [05/Oct/2024 11:16:59] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:18:57 INFO: Connected to Google Cloud Storage
+2024-10-05 11:18:58 INFO: Database connection successful
+2024-10-05 11:18:58 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-05 11:18:58 INFO: [33mPress CTRL+C to quit[0m
+2024-10-05 11:19:00 INFO: 192.168.2.25 - - [05/Oct/2024 11:19:00] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:19:02 INFO: 192.168.2.25 - - [05/Oct/2024 11:19:02] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:19:03 INFO: 192.168.2.25 - - [05/Oct/2024 11:19:03] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:19:03 INFO: 192.168.2.25 - - [05/Oct/2024 11:19:03] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:19:04 INFO: 192.168.2.25 - - [05/Oct/2024 11:19:04] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:19:05 INFO: 192.168.2.25 - - [05/Oct/2024 11:19:05] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:19:10 INFO: 192.168.2.25 - - [05/Oct/2024 11:19:10] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:19:19 INFO: Received file: new image.jpeg
+2024-10-05 11:19:20 INFO: File record inserted into the database: new image.jpeg, https://storage.googleapis.com/my_bucket_p/new%20image.jpeg
+2024-10-05 11:19:20 INFO: File new image.jpeg uploaded successfully
+2024-10-05 11:19:20 INFO: 192.168.2.25 - - [05/Oct/2024 11:19:20] "[32mPOST /uploads HTTP/1.1[0m" 302 -
+2024-10-05 11:19:20 INFO: 192.168.2.25 - - [05/Oct/2024 11:19:20] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:24:29 INFO: Connected to Google Cloud Storage
+2024-10-05 11:24:30 INFO: Database connection successful
+2024-10-05 11:24:30 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-05 11:24:30 INFO: [33mPress CTRL+C to quit[0m
+2024-10-05 11:24:33 INFO: 192.168.2.25 - - [05/Oct/2024 11:24:33] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:24:35 INFO: 192.168.2.25 - - [05/Oct/2024 11:24:35] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:24:39 INFO: Received file: OIP.jpeg
+2024-10-05 11:24:40 INFO: File record inserted into the database: OIP.jpeg, https://storage.googleapis.com/my_bucket_p/OIP.jpeg
+2024-10-05 11:24:40 INFO: File OIP.jpeg uploaded successfully
+2024-10-05 11:24:40 INFO: 192.168.2.25 - - [05/Oct/2024 11:24:40] "[32mPOST /uploads HTTP/1.1[0m" 302 -
+2024-10-05 11:24:40 INFO: 192.168.2.25 - - [05/Oct/2024 11:24:40] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:51:43 INFO: Connected to Google Cloud Storage
+2024-10-05 11:51:44 INFO: Database connection successful
+2024-10-05 11:51:44 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.25:8080
+2024-10-05 11:51:44 INFO: [33mPress CTRL+C to quit[0m
+2024-10-05 11:51:48 INFO: 192.168.2.25 - - [05/Oct/2024 11:51:48] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:51:49 INFO: 192.168.2.25 - - [05/Oct/2024 11:51:49] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:51:50 INFO: 192.168.2.25 - - [05/Oct/2024 11:51:50] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:51:50 INFO: 192.168.2.25 - - [05/Oct/2024 11:51:50] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:51:50 INFO: 192.168.2.25 - - [05/Oct/2024 11:51:50] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:51:50 INFO: 192.168.2.25 - - [05/Oct/2024 11:51:50] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:51:50 INFO: 192.168.2.25 - - [05/Oct/2024 11:51:50] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:51:57 INFO: File record inserted into the database: OIP.jpeg, https://storage.googleapis.com/mybucketp/OIP.jpeg
+2024-10-05 11:51:57 INFO: File OIP.jpeg uploaded successfully
+2024-10-05 11:51:57 INFO: 192.168.2.25 - - [05/Oct/2024 11:51:57] "[32mPOST /uploads HTTP/1.1[0m" 302 -
+2024-10-05 11:51:57 INFO: 192.168.2.25 - - [05/Oct/2024 11:51:57] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:52:42 INFO: File record inserted into the database: 1726087940563.jpeg, https://storage.googleapis.com/mybucketp/1726087940563.jpeg
+2024-10-05 11:52:42 INFO: File 1726087940563.jpeg uploaded successfully
+2024-10-05 11:52:42 INFO: 192.168.2.25 - - [05/Oct/2024 11:52:42] "[32mPOST /uploads HTTP/1.1[0m" 302 -
+2024-10-05 11:52:42 INFO: 192.168.2.25 - - [05/Oct/2024 11:52:42] "GET /uploads HTTP/1.1" 200 -
+2024-10-05 11:53:00 INFO: 192.168.2.25 - - [05/Oct/2024 11:53:00] "GET /uploads HTTP/1.1" 200 -

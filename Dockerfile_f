@@ -1,0 +1,9 @@
+FROM nginx:alpine
+
+# Copy the HTML file and any assets (like CSS, JS) to the Nginx HTML directory
+COPY ./templates/upload.html /usr/share/nginx/html/index.html
+
+# If you have additional assets, uncomment and modify the following line
+# COPY ./path/to/your/assets /usr/share/nginx/html/assets
+
+EXPOSE 80

@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: python-app
+  template:
+    metadata:
+      labels:
+        app: python-app
+    spec:
+      containers:
+      - name: backend
+        image: gcr.io/planar-airship-434723-g8/my_app_backend:latest
+        env:
+          - name: DB_HOST
+            valueFrom:
+              secretKeyRef:
+                name: db-credentials
+                key: DB_HOST
+          - name: DB_NAME
+            valueFrom:
+              secretKeyRef:
+                name: db-credentials
+                key: DB_NAME
+          - name: DB_USER
+            valueFrom:
+              secretKeyRef:
+                name: db-credentials
+                key: DB_USER
+          - name: DB_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: db-credentials
+                key: DB_PASSWORD
+          - name: GCS_BUCKET_NAME
+            value: "mybucketp"
+          - name: GOOGLE_APPLICATION_CREDENTIALS
+            value: "/app/credentials.json"
+        volumeMounts:
+        - name: google-credentials
+          mountPath: /app/credentials.json
+          subPath: credentials.json
+      - name: frontend
+        image: gcr.io/planar-airship-434723-g8/my_app_frontend
+        ports:
+          - containerPort: 80
+      volumes:
+      - name: google-credentials
+        secret:
+          secretName: gcp-secret
