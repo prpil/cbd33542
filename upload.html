@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload an Image</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: #4CAF50;
+            font-size: 2.5em;
+        }
+
+        form {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+
+        input[type="file"] {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li.success {
+            color: #4CAF50;
+        }
+
+        li.error {
+            color: #FF5733;
+        }
+
+        #loading {
+            display: none;
+            font-size: 1.2em;
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <form id="uploadForm" method="post" enctype="multipart/form-data">
+        <h1>Upload an Image to GCP Bucket</h1>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        <ul>
+            {% for category, message in messages %}
+            <li class="{{ category }}">{{ message }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% endwith %}
+
+        <input type="file" id="fileInput" name="file" accept="image/*">
+        <input type="submit" value="Upload">
+        <p id="loading">Uploading...</p>
+    </form>
+
+    <script>
+        document.getElementById('uploadForm').addEventListener('submit', function(event) {
+            const fileInput = document.getElementById('fileInput');
+            const file = fileInput.files[0];
+
+            // Check if a file is selected
+            if (!file) {
+                alert("Please select a file.");
+                event.preventDefault();
+                return;
+            }
+
+            // Check file type (must be an image)
+            const validImageTypes = ['image/jpeg', 'image/png', 'image/gif'];
+            if (!validImageTypes.includes(file.type)) {
+                alert("Only image files (JPG, PNG, GIF) are allowed.");
+                event.preventDefault();
+                return;
+            }
+
+            // Check file size (limit: 5MB)
+            const maxSizeInBytes = 5 * 1024 * 1024;  // 5MB
+            if (file.size > maxSizeInBytes) {
+                alert("File size must be less than 5MB.");
+                event.preventDefault();
+                return;
+            }
+
+            // Show loading message
+            document.getElementById('loading').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
