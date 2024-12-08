@@ -1,14 +1,22 @@
 steps:
+  # Step 1: Use Python base image to install dependencies
   - name: 'python:3.9'
     entrypoint: 'bash'
     args:
       - '-c'
       - |
         pip install -r requirements.txt
-  - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['app', 'deploy', '--quiet']
 
+  # Step 2: Deploy the Flask app to App Engine or run it locally
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args:
+      - 'app'
+      - 'deploy'
+      - '--quiet'
+
+# Logging and region options
 options:
   logging: CLOUD_LOGGING_ONLY
+  region: us-central1
 
-timeout: '600s'
+timeout: '600s' # Timeout of 10 minutes
