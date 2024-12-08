@@ -17,6 +17,6 @@ steps:
 # Logging and region options
 options:
   logging: CLOUD_LOGGING_ONLY
-  region: us-central1
+  region: us-central1-a
 
 timeout: '600s' # Timeout of 10 minutes
