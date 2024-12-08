@@ -7,16 +7,14 @@ steps:
       - |
         pip install -r requirements.txt
 
-  # Step 2: Deploy the Flask app to App Engine or run it locally
+  # Step 2: Deploy the Flask app to App Engine
   - name: 'gcr.io/cloud-builders/gcloud'
     args:
       - 'app'
       - 'deploy'
       - '--quiet'
 
-# Logging and region options
 options:
   logging: CLOUD_LOGGING_ONLY
-  region: us-central1-a
 
 timeout: '600s' # Timeout of 10 minutes
