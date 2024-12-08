@@ -1,28 +1,17 @@
 steps:
-  # Step 1: Build the Docker image
-  - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/planar-airship-434723-g8/myapp:$SHORT_SHA', '.']
-
-  # Step 2: Push the Docker image to Google Container Registry (GCR)
-  - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/planar-airship-434723-g8/myapp:$SHORT_SHA']
-
-  # Step 3: Update the Kubernetes deployment to use the new image
-  - name: 'gcr.io/cloud-builders/kubectl'
+  # Step 1: Use Python base image to install dependencies
+  - name: 'python:3.9'
+    entrypoint: 'bash'
     args:
-      - 'set'
-      - 'image'
-      - 'deployment/python-app'   # Updated to match deployment name in your YAML
-      - 'backend=gcr.io/planar-airship-434723-g8/myapp:$SHORT_SHA'  # Backend image update
-      - 'frontend=gcr.io/planar-airship-434723-g8/myapp:$SHORT_SHA' # Frontend image update
-      - '--namespace=default'
-    env:
-      - 'CLOUDSDK_COMPUTE_ZONE=${_ZONE}'
-      - 'CLOUDSDK_CONTAINER_CLUSTER=${_CLUSTER_NAME}'
+      - '-c'
+      - |
+        pip install -r requirements.txt
 
-images:
-  - 'gcr.io/planar-airship-434723-g8/myapp:$SHORT_SHA'
+  # Step 2: Deploy the Flask app to App Engine or run it locally
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args:
+      - 'app'
+      - 'deploy'
+      - '--quiet'
 
-substitutions:
-  _ZONE: 'us-central1-a'
-  _CLUSTER_NAME: 'my-cluster'
+timeout: '600s' # Timeout of 10 minutes
